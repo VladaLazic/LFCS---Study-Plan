@@ -1,5 +1,26 @@
+# Dependencies
 node_modules
+
+# Build output
 dist
 dist-ssr
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Local overrides
 *.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Editor (optional local settings)
+.vscode/*
+!.vscode/extensions.json
